@@ -18,8 +18,7 @@ reminder, the final product should look something like this:
 
 ![Screenshot Final](https://curriculum-content.s3.amazonaws.com/fewpjs/fewpjs-build-the-example/finished_product_ss.png)
 
-The focus of this lab is the JavaScript code. You should only need to make one
-change to the HTML, and no changes to the CSS file.
+The focus of this lab is the JavaScript code. You should only need to make one change to the HTML, and no changes to the CSS file.
 
 You might be tempted to look back at previous code, but don't. Use your
 knowledge and documentation from the internet (if needed), to build the
@@ -27,17 +26,12 @@ application.
 
 ## Instructions
 
-You will be doing your coding in `main.js`. If you take a look at the file, you
-will see that a function, `mimicServerCall()`, is being provided for you. This
-function will "mock" the behavior of a backend server. You will invoke
-`mimicServerCall()` in response to a user action, and the function will randomly
-return either a "success" or "fail" response. Your code will then need to handle
+You will be doing your coding in `main.js`. If you take a look at the file, you will see that a function, `mimicServerCall()`, is being provided for you. This function will "mock" the behavior of a backend server. You will invoke `mimicServerCall()` in response to a user action, and the function will randomly return either a "success" or "fail" response. Your code will then need to handle
 the response appropriately: updating the appearance of the heart if it returns a
 "successful" response, and displaying an error in the DOM otherwise.
 
 Note that the content of the "successful" response from the server is not
-important here — we only care that it's successful. This means you will not need
-to call `.json()` on the response so you only need a single `then()` call.
+important here — we only care that it's successful. This means you will not need to call `.json()` on the response so you only need a single `then()` call.
 
 Here's the specification:
 
